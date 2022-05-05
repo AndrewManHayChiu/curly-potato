@@ -5,20 +5,26 @@
                 <a target="_blank" 
                    href="https://appseed.us/admin-dashboards/flask-datta-able" class="b-brand">
                     <div class="b-bg">
-                        <i class="feather icon-trending-up"></i>
+                        <i class="feather icon-sliders"></i>
                     </div>
-                    <span class="b-title">Flask Datta Able</span>
+                    <span class="b-title">Game organaniser</span>
                 </a>
                 <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
             </div>
+
             <div class="navbar-content scroll-div">
                 <ul class="nav pcoded-inner-navbar">
                     <li class="nav-item pcoded-menu-caption">
                         <label>Navigation</label>
                     </li>
-                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" 
-                        class="nav-item {% if 'index' in segment %} active {% endif %}">
+                    <li class="nav-item {% if 'index' in segment %} active {% endif %}">
                         <a href="/" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                    </li>
+                    <li class="nav-item {% if 'index copy' in segment %} active {% endif %}">
+                        <a href="/index copy.html" class=""><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Home (dev)</span></a>
+                    </li>
+                    <li class="nav-item {%if 'new player' in segment %} active {% endif%}">
+                        <a href="/new player.html" class=""><span class="pcoded-micon"><i class="feather icon-user-plus"></i></span><span class="pcoded-mtext">New player (dev)</span></a>
                     </li>
                     <li class="nav-item pcoded-menu-caption">
                         <label>UI Element</label>
